@@ -15,6 +15,6 @@ type Node struct {
 	Addr net.IP
 	//节点端口
 	Port int32
-	//Timestamp proto.Timestamp
+	//Timestamp goproto.Timestamp
 	Native interface{}
 }

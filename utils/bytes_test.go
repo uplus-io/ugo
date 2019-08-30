@@ -10,10 +10,10 @@ import (
 )
 
 //func TestStructSerializable(t *testing.T) {
-//	message := proto.Message{}
-//	message.Timestamp = *proto.NewTimestamp(time.Now().UnixNano(), time.Now().UnixNano())
-//	message.Category = proto.MessageCategorySystem
-//	message.Type = proto.MessageTypeClock
+//	message := goproto.Message{}
+//	message.Timestamp = *goproto.NewTimestamp(time.Now().UnixNano(), time.Now().UnixNano())
+//	message.Category = goproto.MessageCategorySystem
+//	message.Type = goproto.MessageTypeClock
 //	message.From = uint32(1234567890)
 //	message.Content = StringToBytes("abcdefgh")
 //
@@ -21,7 +21,7 @@ import (
 //	if err != nil {
 //		t.Fatal(err)
 //	}
-//	copy := proto.Message{}
+//	copy := goproto.Message{}
 //	copy.Deserialize(dat)
 //
 //	if message.Category != copy.Category && message.Type != copy.Type &&

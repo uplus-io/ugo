@@ -2,7 +2,7 @@
  * Copyright (c) 2019 uplus.io
  */
 
-package proto
+package goproto
 
 import (
 	ggproto "github.com/golang/protobuf/proto"
